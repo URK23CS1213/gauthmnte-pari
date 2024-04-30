@@ -1,0 +1,28 @@
+class rectangle:
+    def __init__ (self,length,breadth):
+
+        self.length=length
+        self.breadth=breadth
+
+    def area(self):
+        return self.length*self.breadth
+
+class triangle:
+    def __init__(self,base,height):
+        self.height=height
+        self.base=base
+    def area(self): 
+           return 0.5*self.height*self.base  
+
+     
+object=rectangle(2,5)
+object1=triangle(3,4)
+
+
+print("area of ractangle" ,object.area())
+print("area of traingle",object1.area())
+        
+
+
+
+
